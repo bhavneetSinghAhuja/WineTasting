@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WineTaste Unit Tests Suite" verbose="1" parallel="false" thread-count="2"
+       data-provider-thread-count="3">
+
+    <test name="WineTasteUnitTests">
+        <classes>
+            <class name="CalculateResultTest"></class>
+            <class name="DBManagerTest"></class>
+            <class name="ParseInputTest"></class>
+        </classes>
+    </test>
+
+</suite>
+
